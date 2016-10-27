@@ -1,0 +1,28 @@
+div {
+	background-color:#bfff00;
+	height:200px;
+	width:200px;
+	position:fixed;
+	left:300px;
+	top:300px;
+}
+div:hover {
+	background-color:#00bfff;
+	background-color:#00bfff;
+	height:500px;
+	width:500px;
+	left:300px;
+	top:300px;
+}
+div #small {
+	display:block;
+}
+div #big {
+	display:none;
+}
+div:hover #small {
+	display:none;
+}
+div:hover #big {
+	display:block;
+}
